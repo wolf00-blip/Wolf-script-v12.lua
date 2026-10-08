@@ -33,11 +33,12 @@ local mainCorner = Instance.new("UICorner")
 mainCorner.CornerRadius = UDim.new(0, 12)
 mainCorner.Parent = main
 
--- ГРАДИЕНТ (тёмно-синий → бирюзовый)
+-- ГРАДИЕНТ (чёрный → зелёный)
 local gradient = Instance.new("UIGradient")
 gradient.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 10, 40)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 60, 80))
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 120, 40))
+}
 }
 gradient.Rotation = 90
 gradient.Parent = main
