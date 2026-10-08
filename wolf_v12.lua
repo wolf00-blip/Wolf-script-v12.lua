@@ -39,7 +39,6 @@ gradient.Color = ColorSequence.new{
     ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0)),
     ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 120, 40))
 }
-}
 gradient.Rotation = 90
 gradient.Parent = main
 
